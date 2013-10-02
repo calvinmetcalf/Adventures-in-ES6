@@ -1,16 +1,16 @@
 {
   "name": "cwm",
   "version": "0.0.1",
-  "description": "undecided",
-  "main": "lib/index.js",
-  "repository": "",
+  "description": "git@github.com:calvinmetcalf/Adventures-in-ES6.git",
+  "main": "out/lib/index.js",
+  "repository": "https://github.com/calvinmetcalf/Adventures-in-ES6",
   "author": "Calvin Metcalf <calvin.metcalf@gmail.com>",
   "dependencies": {
     "rtree": "~1.2.0"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
-    "grunt-traceur": "0.0.1",
-    "grunt-cli": "~0.1.9"
+    "grunt-cli": "~0.1.9",
+    "traceur": "0.0.4"
   }
 }

@@ -1,4 +1,4 @@
-var proj = require('./quickProj');
+const proj = require('./quickProj');
 
 class TransformGeojson {
 	constructor(func) {
@@ -98,4 +98,4 @@ var from = TransformGeojson(proj.project);
 var to = TransformGeojson(proj.unproject);
 
 exports.from = something => from.any(something)
-exports.to something => to.any(something)
+exports.to = something => to.any(something)
