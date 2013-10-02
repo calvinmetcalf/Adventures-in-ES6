@@ -1,3 +1,4 @@
+//from https://github.com/mourner/simplify-js/blob/master/simplify.js
 const getSquareDistance = (p1, p2) => { // square distance between 2 points
 
 		const dx = p1[0] - p2[0];
