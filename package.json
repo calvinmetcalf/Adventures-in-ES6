@@ -6,11 +6,12 @@
   "repository": "https://github.com/calvinmetcalf/Adventures-in-ES6",
   "author": "Calvin Metcalf <calvin.metcalf@gmail.com>",
   "dependencies": {
-    "rtree": "~1.2.0"
+    "rtree": "~1.2.2"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-cli": "~0.1.9",
-    "traceur": "0.0.4"
+    "grunt-browserify": "~1.2.8",
+    "catiline":"~2.9.0-dev.3"
   }
 }
